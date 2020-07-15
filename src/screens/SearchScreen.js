@@ -27,6 +27,9 @@ const SearchScreen = () => {
   /* Call searchApi when component is rendered */
   /* This is bad code */
   /* searchApi('pasta'); */
+  useEffect(() => {
+    searchApi('pasta');
+  }, []);
 
   return (
     <View>
