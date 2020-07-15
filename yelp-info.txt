@@ -1,0 +1,7 @@
+Client ID
+tp709GLkU0OAUBM_TORDYQ
+
+API Key
+B3I0F4xBEiTldGviSRdGEUdLYLe6a9auGKu1J9jsZ8V5vPXzm6gEHwUfYzYgYDJaw1D03PB05AQ3wM7nGA5Z0qv7J1jE0qZBXalsqurmSLynl1cwVvQlHUHgF0oOX3Yx
+
+https://www.yelp.com/developers/documentation/v3/business_search
