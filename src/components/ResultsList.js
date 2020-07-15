@@ -5,7 +5,9 @@ import ResultsDetail from '../components/ResultsDetail';
 const ResultsList = ({ title, results }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>{title}</Text>
+      <Text style={styles.title}>
+        {title}:<Text>&nbsp;Results - {results.length}</Text>
+      </Text>
       {results.length ? (
         <FlatList
           horizontal
@@ -35,6 +37,10 @@ const styles = StyleSheet.create({
   },
   noResults: {
     marginLeft: 15,
+  },
+  subTitle: {
+    fontSize: 16,
+    fontWeight: 'normal',
   },
 });
 

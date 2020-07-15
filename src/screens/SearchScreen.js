@@ -12,7 +12,7 @@ const SearchScreen = () => {
     return results.filter(results => results.price === price);
   };
   return (
-    <View style={{ flex: 1 }}>
+    <>
       <SearchBar
         term={term}
         onTermChange={setTerm}
@@ -34,7 +34,7 @@ const SearchScreen = () => {
           title="Flush with CASH"
         />
       </ScrollView>
-    </View>
+    </>
   );
 };
 
